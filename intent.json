@@ -356,6 +356,7 @@
            "list of men's shirts",
            "what men's shirts do you have?",
            "men's shirts?",
+           "men's T-shirts?",
            "show me men's shirts",
            "what types of men's shirts do you offer?",
            "men's shirts available",
@@ -433,7 +434,184 @@
            "Explore our range of tablets which includes iPads, Samsung Galaxy Tabs, and Amazon Fire Tablets."
          ],
          "context_set": ""
-       }
+       },
+       {
+        "tag": "shirt_size",
+        "patterns": [
+          "What sizes are available?",
+          "Do you have different sizes?",
+          "What size shirts do you offer?",
+          "Sizes for shirts?",
+          "What are the available shirt sizes?",
+          "Size options for shirts?",
+          "What sizes are your shirts available in?",
+          "Do you offer XXL sizes?",
+          "Can I get small sizes?",
+          "What is the size range?"
+        ],
+        "responses": [
+          "Our shirts are available in sizes ranging from small to XXL.",
+          "We offer a range of sizes including small, medium, large, and XXL.",
+          "Sizes available are small, medium, large, and XXL.",
+          "You can choose from sizes small to XXL.",
+          "We provide a variety of sizes to fit your needs, from small to XXL."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "shirt_brands",
+        "patterns": [
+          "What shirt brands do you carry?",
+          "Do you have branded shirts?",
+          "Which brands do your shirts come from?",
+          "Any popular shirt brands?",
+          "Shirt brands available?",
+          "Do you offer any designer shirts?",
+          "What are the top shirt brands?",
+          "Brands for shirts?"
+        ],
+        "responses": [
+          "We carry a variety of popular shirt brands including Calvin Klein, Tommy Hilfiger, Ralph Lauren, and more.",
+          "Our shirt collection features brands like Nike, Adidas, Levi's, and many others.",
+          "Explore top shirt brands in our collection such as Hugo Boss, Lacoste, and Armani.",
+          "We offer a selection of designer and popular shirt brands for you to choose from.",
+          "Choose from a range of top shirt brands including Gucci, Versace, and Burberry."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "shirt_material",
+        "patterns": [
+          "What materials are the shirts made of?",
+          "Do you have cotton shirts?",
+          "Which materials do you offer?",
+          "What kind of fabric do you use?",
+          "Shirt materials available?",
+          "What are the shirts made from?",
+          "Do you have polyester shirts?",
+          "Material options for shirts?"
+        ],
+        "responses": [
+          "Our shirts are made from high-quality materials such as cotton, polyester, and blends.",
+          "We offer shirts crafted from comfortable materials like cotton, polyester, and linen.",
+          "Choose from shirts made of cotton, polyester, or a blend of fabrics.",
+          "Our shirts are crafted with quality materials to ensure comfort and durability.",
+          "Explore shirts made from various materials including cotton, polyester, and more."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "shirt_material",
+        "patterns": [
+          "What materials are the shirts made of?",
+          "Do you have cotton shirts?",
+          "Which materials do you offer?",
+          "What kind of fabric do you use?",
+          "Shirt materials available?",
+          "What are the shirts made from?",
+          "Do you have polyester shirts?",
+          "Material options for shirts?"
+        ],
+        "responses": [
+          "Our shirts are made from high-quality materials such as cotton, polyester, and blends.",
+          "We offer shirts crafted from comfortable materials like cotton, polyester, and linen.",
+          "Choose from shirts made of cotton, polyester, or a blend of fabrics.",
+          "Our shirts are crafted with quality materials to ensure comfort and durability.",
+          "Explore shirts made from various materials including cotton, polyester, and more."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "shirt_color",
+        "patterns": [
+          "What colors do the shirts come in?",
+          "Do you have shirts in blue?",
+          "Which colors are available?",
+          "What color options do you offer?",
+          "Colors for shirts?",
+          "Do you offer white shirts?",
+          "Can I get black shirts?",
+          "Color choices for shirts?"
+        ],
+        "responses": [
+          "Our shirts come in a variety of colors including blue, white, black, red, and more.",
+          "We offer a wide range of color options for our shirts, from classic black and white to vibrant hues.",
+          "Choose from a spectrum of colors for our shirts, including blue, green, yellow, and more.",
+          "We provide a diverse range of color choices to suit your style, from neutral tones to bold colors.",
+          "Explore our collection of shirts available in different colors to match your preference."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "shoe_types",
+        "patterns": [
+          "What types of shoes do you have?",
+          "Do you carry sneakers?",
+          "What are your shoe styles?",
+          "Shoe types available?",
+          "Any formal shoes?",
+          "Do you have boots?",
+          "Types of shoes?",
+          "What kinds of shoes do you offer?"
+        ],
+        "responses": [
+          "We offer a variety of shoe types including sneakers, loafers, formal shoes, boots, and sandals.",
+          "Our shoe collection features sneakers, dress shoes, casual shoes, boots, and more.",
+          "Explore our range of shoe types including athletic shoes, dress shoes, and casual footwear.",
+          "Choose from a wide selection of shoe types to fit your style and needs.",
+          "We provide various shoe types from casual sneakers to formal dress shoes."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "shoe_colors",
+        "patterns": [
+          "What colors do the shoes come in?",
+          "Do you have black shoes?",
+          "Which colors are available?",
+          "Color options for shoes?",
+          "Shoe colors?",
+          "Can I get blue shoes?",
+          "Color choices for shoes?"
+        ],
+        "responses": [
+          "Our shoes come in a variety of colors including black, white, blue, brown, and red.",
+          "We offer a wide range of color options for our shoes, from classic black to vibrant hues.",
+          "Choose from a spectrum of colors for our shoes, including blue, green, yellow, and more.",
+          "We provide a diverse range of color choices to suit your style, from neutral tones to bold colors.",
+          "Explore our collection of shoes available in different colors to match your preference."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "shoe_price",
+        "patterns": [
+          "What is the price range for shoes?",
+          "How much do your shoes cost?",
+          "Price of shoes?",
+          "What are your shoe prices?",
+          "Do you have affordable shoes?",
+          "Expensive shoes?",
+          "Price range for sneakers?"
+        ],
+        "responses": [
+          "Our shoes are priced from $50 to $200, depending on the style and brand.",
+          "Shoe prices range from $50 for basic styles to $200 for designer brands.",
+          "We offer a variety of price points for our shoes, catering to different budgets.",
+          "Our shoe collection includes affordable options starting at $50 as well as premium designs up to $200.",
+          "Choose from a range of shoe prices to find the perfect pair within your budget."
+        ],
+        "context_set": ""
+      }
+
+      
+      
+      
+      
+      
+      
+      
+      
        
        
        
