@@ -1,0 +1,4 @@
+streamlit==1.33.0
+scikit-learn==1.4.2
+json5==0.9.25
+PyYAML==6.0.1

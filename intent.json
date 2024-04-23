@@ -1,0 +1,452 @@
+{
+    "intents":[
+       {
+          "tag": "greeting",
+          "patterns": [
+             "Hi",
+             "How are you?",
+             "Is anyone there?",
+             "Hello",
+             "Good day",
+             "What's up",
+             "heyy",
+             "whatsup",
+             "??? ??? ??"
+          ],
+          "responses": [
+             "Hello!",
+             "Good to see you again!",
+             "Hi there, how can I help?"
+          ],
+          "context_set": ""
+       },
+       {
+          "tag": "goodbye",
+          "patterns": [
+             "cya",
+             "see you",
+             "bye bye",
+             "See you later",
+             "Goodbye",
+             "I am Leaving",
+             "Bye",
+             "Have a Good day",
+             "talk to you later",
+             "ttyl",
+             "i got to go",
+             "gtg"
+          ],
+          "responses": [
+             "Sad to see you go :(",
+             "Talk to you later",
+             "Goodbye!",
+             "Come back soon"
+          ],
+          "context_set": ""
+       },
+       {
+          "tag": "products",
+          "patterns": [
+             "list of products",
+             "what products do you have?",
+             "products?",
+             "show me products",
+             "what can I buy?",
+             "products available",
+             "show products",
+             "product list",
+             "items",
+             "what items do you sell?"
+          ],
+          "responses": [
+             "We offer a variety of products including electronics, clothing, and accessories."
+          ],
+          "context_set": ""
+       },
+       {
+          "tag": "product_details",
+          "patterns": [
+             "Tell me about PRODUCT_NAME",
+             "PRODUCT_NAME details",
+             "details of PRODUCT_NAME",
+             "info about PRODUCT_NAME",
+             "PRODUCT_NAME info",
+             "what is PRODUCT_NAME",
+             "describe PRODUCT_NAME"
+          ],
+          "responses": [
+             "Here are the details for PRODUCT_NAME: PRODUCT_DESCRIPTION, PRICE."
+          ],
+          "context_set": ""
+       },
+       {
+          "tag": "order",
+          "patterns": [
+             "How to place an order?",
+             "order process",
+             "How can I order?",
+             "how to buy?",
+             "purchase process",
+             "order a PRODUCT_NAME",
+             "buy PRODUCT_NAME"
+          ],
+          "responses": [
+             "To place an order, please add the desired products to your cart and proceed to checkout."
+          ],
+          "context_set": ""
+       },
+       {
+          "tag": "payment",
+          "patterns": [
+             "How to make payment?",
+             "payment methods",
+             "How can I pay?",
+             "payment process",
+             "payment options"
+          ],
+          "responses": [
+             "We accept various payment methods including credit/debit cards, PayPal, and bank transfer."
+          ],
+          "context_set": ""
+       },
+       {
+          "tag": "shipping",
+          "patterns": [
+             "How long is the shipping?",
+             "delivery time",
+             "shipping details",
+             "shipping time",
+             "delivery details"
+          ],
+          "responses": [
+             "Shipping typically takes 3-5 business days."
+          ],
+          "context_set": ""
+       },
+       {
+          "tag": "return",
+          "patterns": [
+             "How to return a product?",
+             "return policy",
+             "product return",
+             "exchange policy",
+             "return process"
+          ],
+          "responses": [
+             "You can return or exchange products within 30 days of purchase. Please check our return policy for more details."
+          ],
+          "context_set": ""
+       },
+       {
+          "tag": "contact",
+          "patterns": [
+             "contact us",
+             "customer service",
+             "support",
+             "help"
+          ],
+          "responses": [
+             "For any inquiries or support, please contact us at support@example.com or call us at +1-800-123-4567."
+          ],
+          "context_set": ""
+       },
+       {
+          "tag": "discount",
+          "patterns": [
+             "Do you offer discounts?",
+             "discounts",
+             "coupon code",
+             "promotions",
+             "offers"
+          ],
+          "responses": [
+             "Yes, we frequently offer discounts and promotions. Please check our website or subscribe to our newsletter for the latest deals."
+          ],
+          "context_set": ""
+       },
+       {
+          "tag": "out_of_stock",
+          "patterns": [
+             "Is PRODUCT_NAME in stock?",
+             "availability of PRODUCT_NAME",
+             "out of stock",
+             "stock status"
+          ],
+          "responses": [
+             "I'm sorry, PRODUCT_NAME is currently out of stock."
+          ],
+          "context_set": ""
+       },
+       {
+         "tag": "clothing",
+         "patterns": [
+           "list of clothing",
+           "what clothing do you have?",
+           "clothing?",
+           "show me clothing",
+           "what types of clothing do you offer?",
+           "clothing available",
+           "show clothing",
+           "clothing list",
+           "apparel",
+           "what apparel do you sell?"
+         ],
+         "responses": [
+           "We offer a range of clothing including shirts, pants, dresses, jackets, and more."
+         ],
+         "context_set": ""
+       },
+       {
+         "tag": "electronics",
+         "patterns": [
+           "list of electronics",
+           "what electronics do you have?",
+           "electronics?",
+           "show me electronics",
+           "what types of electronics do you offer?",
+           "electronics available",
+           "show electronics",
+           "electronics list",
+           "gadgets",
+           "what gadgets do you sell?"
+         ],
+         "responses": [
+           "We offer a variety of electronics including laptops, smartphones, cameras, headphones, and more."
+         ],
+         "context_set": ""
+       },
+       {
+         "tag": "electronics",
+         "patterns": [
+           "list of electronics",
+           "what electronics do you have?",
+           "electronics?",
+           "show me electronics",
+           "what types of electronics do you offer?",
+           "electronics available",
+           "show electronics",
+           "electronics list",
+           "gadgets",
+           "what gadgets do you sell?"
+         ],
+         "responses": [
+           "We offer a variety of electronics including laptops, smartphones, cameras, headphones, and more."
+         ],
+         "context_set": ""
+       },{
+         "tag": "mobile_phones",
+         "patterns": [
+           "list of mobile phones",
+           "what mobile phones do you have?",
+           "mobile phones?",
+           "show me mobile phones",
+           "what types of mobile phones do you offer?",
+           "mobile phones available",
+           "show mobile phones",
+           "mobile phones list",
+           "cell phones",
+           "what cell phones do you sell?"
+         ],
+         "responses": [
+           "We offer a range of mobile phones including smartphones from top brands such as Apple, Samsung, Google, and more."
+         ],
+         "context_set": ""
+       },
+       {
+         "tag": "fashion",
+         "patterns": [
+           "list of fashion items",
+           "what fashion items do you have?",
+           "fashion?",
+           "show me fashion items",
+           "what types of fashion items do you offer?",
+           "fashion available",
+           "show fashion items",
+           "fashion list",
+           "clothing",
+           "what clothing do you sell?",
+           "accessories",
+           "what accessories do you offer?"
+         ],
+         "responses": [
+           "We offer a variety of fashion items including clothing, accessories, shoes, and more to keep you stylish."
+         ],
+         "context_set": ""
+       },{
+         "tag": "shoes",
+         "patterns": [
+           "list of shoes",
+           "what shoes do you have?",
+           "shoes?",
+           "show me shoes",
+           "what types of shoes do you offer?",
+           "shoes available",
+           "show shoes",
+           "shoes list",
+           "footwear",
+           "what footwear do you sell?",
+           "men's shoes",
+           "what men's shoes do you have?",
+           "women's shoes",
+           "what women's shoes do you have?",
+           "kids' shoes",
+           "what kids' shoes do you have?"
+         ],
+         "responses": [
+           "We offer a variety of shoes including sneakers, boots, sandals, heels, flats, and more for men, women, and kids."
+         ],
+         "context_set": ""
+       },{
+         "tag": "shoe_brands",
+         "patterns": [
+           "list of shoe brands",
+           "what shoe brands do you have?",
+           "shoe brands?",
+           "show me shoe brands",
+           "what shoe brands do you offer?",
+           "shoe brands available",
+           "show shoe brands",
+           "shoe brands list",
+           "top shoe brands",
+           "what are your top shoe brands?",
+           "popular shoe brands",
+           "what popular shoe brands do you have?",
+           "men's shoe brands",
+           "what men's shoe brands do you carry?",
+           "women's shoe brands",
+           "what women's shoe brands do you carry?",
+           "kids' shoe brands",
+           "what kids' shoe brands do you carry?"
+         ],
+         "responses": [
+           "We offer a range of shoe brands including Nike, Adidas, Puma, Reebok, Vans, New Balance, and more for men, women, and kids."
+         ],
+         "context_set": ""
+       },
+       {
+         "tag": "books",
+         "patterns": [
+           "list of books",
+           "what books do you have?",
+           "books?",
+           "show me books",
+           "what types of books do you offer?",
+           "books available",
+           "show books",
+           "books list",
+           "reading materials",
+           "what reading materials do you sell?",
+           "fiction books",
+           "what fiction books do you have?",
+           "non-fiction books",
+           "what non-fiction books do you have?",
+           "bestsellers",
+           "what are your bestsellers?",
+           "genres",
+           "what genres of books do you offer?"
+         ],
+         "responses": [
+           "We offer a variety of books including fiction, non-fiction, bestsellers, and books across various genres to cater to different interests."
+         ],
+         "context_set": ""
+       },
+       {
+         "tag": "mens_shirts",
+         "patterns": [
+           "list of men's shirts",
+           "what men's shirts do you have?",
+           "men's shirts?",
+           "show me men's shirts",
+           "what types of men's shirts do you offer?",
+           "men's shirts available",
+           "show men's shirts",
+           "men's shirts list",
+           "shirt styles for men",
+           "what styles of shirts do you have for men?",
+           "sizes for men's shirts",
+           "what sizes do you offer for men's shirts?"
+         ],
+         "responses": [
+           "We offer a variety of men's shirt styles including polo shirts, dress shirts, casual shirts, flannel shirts, and t-shirts in sizes ranging from small to XXL.",
+           "Our men's shirts collection includes stylish polo shirts, classic dress shirts, comfortable casual shirts, trendy flannel shirts, and versatile t-shirts available in various sizes.",
+           "Explore our range of men's shirts featuring polo shirts, dress shirts, casual shirts, flannel shirts, and t-shirts in sizes from small to XXL."
+         ],
+         "context_set": ""
+       },
+       {
+         "tag": "laptops",
+         "patterns": [
+           "list of laptops",
+           "what laptops do you have?",
+           "laptops?",
+           "show me laptops",
+           "what types of laptops do you offer?",
+           "laptops available",
+           "show laptops",
+           "laptops list",
+           "laptop brands",
+           "what laptop brands do you carry?",
+           "laptop styles",
+           "what laptop styles do you have?"
+         ],
+         "responses": [
+           "We offer a variety of laptops including gaming laptops, ultrabooks, 2-in-1 convertibles, and business laptops from brands like Apple, Dell, HP, Lenovo, and ASUS.",
+           "Our laptops collection features gaming laptops for enthusiasts, sleek ultrabooks for professionals, versatile 2-in-1 convertibles, and reliable business laptops from top brands.",
+           "Explore our range of laptops which includes gaming laptops, ultrabooks, 2-in-1 convertibles, and business laptops from renowned brands such as Apple, Dell, HP, Lenovo, and ASUS."
+         ],
+         "context_set": ""
+       },
+       {
+         "tag": "headphones",
+         "patterns": [
+           "list of headphones",
+           "what headphones do you have?",
+           "headphones?",
+           "show me headphones",
+           "headphones available",
+           "headphones list",
+           "headphone brands",
+           "what headphone brands do you carry?"
+         ],
+         "responses": [
+           "We offer a variety of headphones including over-ear, on-ear, in-ear, wireless, and noise-cancelling headphones from brands like Sony, Bose, Sennheiser, JBL, and Beats.",
+           "Our headphones collection features over-ear headphones for immersive sound, wireless options for convenience, noise-cancelling headphones for peace and quiet, and more from top brands.",
+           "Explore our range of headphones which includes over-ear, on-ear, in-ear, wireless, and noise-cancelling headphones from renowned brands such as Sony, Bose, Sennheiser, JBL, and Beats."
+         ],
+         "context_set": ""
+       },
+       {
+         "tag": "tablets",
+         "patterns": [
+           "list of tablets",
+           "what tablets do you have?",
+           "tablets?",
+           "show me tablets",
+           "tablets available",
+           "tablets list",
+           "tablet brands",
+           "what tablet brands do you carry?"
+         ],
+         "responses": [
+           "We offer a variety of tablets including iPads, Samsung Galaxy Tabs, and Amazon Fire Tablets.",
+           "Our tablets collection features iPads for Apple enthusiasts, Samsung Galaxy Tabs for Android users, and Amazon Fire Tablets for budget-friendly options.",
+           "Explore our range of tablets which includes iPads, Samsung Galaxy Tabs, and Amazon Fire Tablets."
+         ],
+         "context_set": ""
+       }
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+    ]
+ }
+ 
