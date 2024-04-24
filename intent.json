@@ -603,7 +603,169 @@
           "Choose from a range of shoe prices to find the perfect pair within your budget."
         ],
         "context_set": ""
-      }
+      },
+        {
+    "tag": "mens_clothing_price",
+    "patterns": [
+        "average price of men's clothing",
+        "men's clothing prices",
+        "what is the cost of men's clothing?",
+        "how much do men's clothing cost?",
+        "men's clothing price range",
+        "men's clothing cost",
+        "men's clothing price",
+        "average men's clothing price"
+    ],
+    "responses": [
+        "The average price of men's clothing in our store ranges from ₹700 to ₹4,000.",
+        "Men's clothing in our store starts from ₹700 and can go up to ₹4,000.",
+        "You can find men's clothing in our store priced between ₹700 and ₹4,000.",
+        "Men's clothing are available at prices starting from ₹700 up to ₹4,000."
+    ],
+    "context_set": ""
+},
+{
+    "tag": "womens_clothing_price",
+    "patterns": [
+        "average price of women's clothing",
+        "women's clothing prices",
+        "what is the cost of women's clothing?",
+        "how much do women's clothing cost?",
+        "women's clothing price range",
+        "women's clothing cost",
+        "women's clothing price",
+        "average women's clothing price"
+    ],
+    "responses": [
+        "The average price of women's clothing in our store ranges from ₹600 to ₹3,500.",
+        "Women's clothing in our store starts from ₹600 and can go up to ₹3,500.",
+        "You can find women's clothing in our store priced between ₹600 and ₹3,500.",
+        "Women's clothing are available at prices starting from ₹600 up to ₹3,500."
+    ],
+    "context_set": ""
+},
+        {
+    "tag": "average_price",
+    "patterns": [
+        "average price of laptops",
+        "laptop prices",
+        "what is the cost of a laptop?",
+        "how much do laptops cost?",
+        "laptop price range",
+        "laptop cost",
+        "laptop price",
+        "average laptop price"
+    ],
+    "responses": [
+        "The average price of laptops in our store ranges from ₹35,000 to ₹1,50,000.",
+        "Laptops in our store start from ₹35,000 and can go up to ₹1,50,000.",
+        "You can find laptops in our store priced between ₹35,000 and ₹1,50,000.",
+        "Laptops are available at prices starting from ₹35,000 up to ₹1,50,000."
+    ],
+    "context_set": ""
+},
+{
+    "tag": "mens_shirts_price",
+    "patterns": [
+        "average price of men's shirts",
+        "men's shirt prices",
+        "what is the cost of a men's shirt?",
+        "how much do men's shirts cost?",
+        "men's shirt price range",
+        "men's shirt cost",
+        "men's shirt price",
+        "average men's shirt price"
+    ],
+    "responses": [
+        "The average price of men's shirts in our store ranges from ₹500 to ₹2,500.",
+        "Men's shirts in our store start from ₹500 and can go up to ₹2,500.",
+        "You can find men's shirts in our store priced between ₹500 and ₹2,500.",
+        "Men's shirts are available at prices starting from ₹500 up to ₹2,500."
+    ],
+    "context_set": ""
+},
+{
+    "tag": "shoes_price",
+    "patterns": [
+        "average price of shoes",
+        "shoe prices",
+        "what is the cost of shoes?",
+        "how much do shoes cost?",
+        "shoe price range",
+        "shoe cost",
+        "shoe price",
+        "average shoe price"
+    ],
+    "responses": [
+        "The average price of shoes in our store ranges from ₹1,500 to ₹9,000.",
+        "Shoes in our store start from ₹1,500 and can go up to ₹9,000.",
+        "You can find shoes in our store priced between ₹1,500 and ₹9,000.",
+        "Shoes are available at prices starting from ₹1,500 up to ₹9,000."
+    ],
+    "context_set": ""
+},
+{
+    "tag": "sneakers_price",
+    "patterns": [
+        "average price of sneakers",
+        "sneaker prices",
+        "what is the cost of sneakers?",
+        "how much do sneakers cost?",
+        "sneaker price range",
+        "sneaker cost",
+        "sneaker price",
+        "average sneaker price"
+    ],
+    "responses": [
+        "The average price of sneakers in our store ranges from ₹2,000 to ₹7,500.",
+        "Sneakers in our store start from ₹2,000 and can go up to ₹7,500.",
+        "You can find sneakers in our store priced between ₹2,000 and ₹7,500.",
+        "Sneakers are available at prices starting from ₹2,000 up to ₹7,500."
+    ],
+    "context_set": ""
+},
+{
+    "tag": "boots_price",
+    "patterns": [
+        "average price of boots",
+        "boot prices",
+        "what is the cost of boots?",
+        "how much do boots cost?",
+        "boot price range",
+        "boot cost",
+        "boot price",
+        "average boot price"
+    ],
+    "responses": [
+        "The average price of boots in our store ranges from ₹2,500 to ₹12,000.",
+        "Boots in our store start from ₹2,500 and can go up to ₹12,000.",
+        "You can find boots in our store priced between ₹2,500 and ₹12,000.",
+        "Boots are available at prices starting from ₹2,500 up to ₹12,000."
+    ],
+    "context_set": ""
+},
+{
+    "tag": "formal_shoes_price",
+    "patterns": [
+        "average price of formal shoes",
+        "formal shoe prices",
+        "what is the cost of formal shoes?",
+        "how much do formal shoes cost?",
+        "formal shoe price range",
+        "formal shoe cost",
+        "formal shoe price",
+        "average formal shoe price"
+    ],
+    "responses": [
+        "The average price of formal shoes in our store ranges from ₹2,000 to ₹10,000.",
+        "Formal shoes in our store start from ₹2,000 and can go up to ₹10,000.",
+        "You can find formal shoes in our store priced between ₹2,000 and ₹10,000.",
+        "Formal shoes are available at prices starting from ₹2,000 up to ₹10,000."
+    ],
+    "context_set": ""
+}
+
+
 
       
       
