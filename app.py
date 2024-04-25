@@ -75,21 +75,21 @@ with st.chat_message("assistant"):
         """, unsafe_allow_html=True)
 
     st.markdown("""
-        <div style="background-color: #C6D9DF; padding: 15px; border-radius: 10px; margin: 10px; display: flex; align-items: center; box-shadow: 2px 2px 10px #888;">
+        <div style="background-color: #CFE1E7; padding: 15px; border-radius: 10px; margin: 10px; display: flex; align-items: center; box-shadow: 2px 2px 10px #888;">
             <i class="fas fa-shoe-prints" style="font-size: 24px; color: #333333; margin-right: 10px;"></i>
             <span>Footwear</span>
         </div>
         """, unsafe_allow_html=True)
 
     st.markdown("""
-        <div style="background-color: #f5f5f5; padding: 15px; border-radius: 10px; margin: 10px; display: flex; align-items: center; box-shadow: 2px 2px 10px #888;">
+        <div style="background-color: #F1E9F9; padding: 15px; border-radius: 10px; margin: 10px; display: flex; align-items: center; box-shadow: 2px 2px 10px #888;">
             <i class="fas fa-laptop" style="font-size: 24px; color: #333333; margin-right: 10px;"></i>
             <span>Laptops</span>
         </div>
         """, unsafe_allow_html=True)
 
     st.markdown("""
-        <div style="background-color: #f5f5f5; padding: 15px; border-radius: 10px; margin: 10px; display: flex; align-items: center; box-shadow: 2px 2px 10px #888;">
+        <div style="background-color: #E9F9F9; padding: 15px; border-radius: 10px; margin: 10px; display: flex; align-items: center; box-shadow: 2px 2px 10px #888;">
             <i class="fas fa-headphones-alt" style="font-size: 24px; color: #333333; margin-right: 10px;"></i>
             <span>Headphones</span>
         </div>
