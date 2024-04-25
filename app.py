@@ -59,8 +59,7 @@ def ChatBot(input_message):
             return response
 
 
-st.markdown("<h1 style='text-align: center; color: red;'>Ecommerce AI ChatBot</h1>", unsafe_allow_html=True)
-
+st.markdown("<h1 style='text-align: center; color: red; text-shadow: 2px 2px 10px #333;'>Ecommerce AI ChatBot</h1>", unsafe_allow_html=True)
 # Include FontAwesome CDN
 st.markdown("""
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
