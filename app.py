@@ -86,7 +86,7 @@ with st.chat_message("assistant"):
     st.markdown("""
         <div style="background-color: #f5f5f5; padding: 10px; border-radius: 5px; display: flex; align-items: center;">
             <i class="fas fa-laptop" style="font-size: 24px; color: #333333; margin-right: 10px;"></i>
-            <span>Laptop</span>
+            <span>Laptops</span>
         </div>
         """, unsafe_allow_html=True)
 
