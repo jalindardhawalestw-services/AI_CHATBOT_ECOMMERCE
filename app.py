@@ -100,12 +100,11 @@ if "messages" not in st.session_state:
     st.session_state.messages = []
 
 # Display chat messages from history on app rerun
-        <div style="background-color: #F1E9F9; padding: 15px; border-radius: 10px; margin: 10px; display: flex; align-items: center; box-shadow: 2px 2px 10px #888;">
 
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
-        </div>
+    
 
 # React to user input
 if prompt := st.chat_input("What is up?"):
