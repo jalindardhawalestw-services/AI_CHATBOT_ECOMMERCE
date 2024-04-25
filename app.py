@@ -72,14 +72,14 @@ with st.chat_message("assistant"):
     st.markdown("""
         <div style="background-color: #f5f5f5; padding: 10px; border-radius: 5px; display: flex; align-items: center;">
             <i class="fas fa-tshirt" style="font-size: 24px; color: #333333; margin-right: 10px;"></i>
-            <span>Men's T-Shirt</span>
+            <span>Fashion</span>
         </div>
         """, unsafe_allow_html=True)
 
     st.markdown("""
         <div style="background-color: #f5f5f5; padding: 10px; border-radius: 5px; display: flex; align-items: center;">
             <i class="fas fa-shoe-prints" style="font-size: 24px; color: #333333; margin-right: 10px;"></i>
-            <span>Running Shoes</span>
+            <span>Footwear</span>
         </div>
         """, unsafe_allow_html=True)
 
