@@ -68,28 +68,28 @@ st.markdown("""
 # AI Chatbot response with horizontally aligned product icons
 with st.chat_message("assistant"):
     st.markdown("""
-        <div style="background-color: #f5f5f5; padding: 10px; border-radius: 5px; display: flex; align-items: center;">
+        <div style="background-color: #f5f5f5; padding: 15px; border-radius: 10px; margin: 10px; display: flex; align-items: center; box-shadow: 2px 2px 10px #888;">
             <i class="fas fa-tshirt" style="font-size: 24px; color: #333333; margin-right: 10px;"></i>
             <span>Fashion</span>
         </div>
         """, unsafe_allow_html=True)
 
     st.markdown("""
-        <div style="background-color: #f5f5f5; padding: 10px; border-radius: 5px; display: flex; align-items: center;">
+        <div style="background-color: #f5f5f5; padding: 15px; border-radius: 10px; margin: 10px; display: flex; align-items: center; box-shadow: 2px 2px 10px #888;">
             <i class="fas fa-shoe-prints" style="font-size: 24px; color: #333333; margin-right: 10px;"></i>
             <span>Footwear</span>
         </div>
         """, unsafe_allow_html=True)
 
     st.markdown("""
-        <div style="background-color: #f5f5f5; padding: 10px; border-radius: 5px; display: flex; align-items: center;">
+        <div style="background-color: #f5f5f5; padding: 15px; border-radius: 10px; margin: 10px; display: flex; align-items: center; box-shadow: 2px 2px 10px #888;">
             <i class="fas fa-laptop" style="font-size: 24px; color: #333333; margin-right: 10px;"></i>
             <span>Laptops</span>
         </div>
         """, unsafe_allow_html=True)
 
     st.markdown("""
-        <div style="background-color: #f5f5f5; padding: 10px; border-radius: 5px; display: flex; align-items: center;">
+        <div style="background-color: #f5f5f5; padding: 15px; border-radius: 10px; margin: 10px; display: flex; align-items: center; box-shadow: 2px 2px 10px #888;">
             <i class="fas fa-headphones-alt" style="font-size: 24px; color: #333333; margin-right: 10px;"></i>
             <span>Headphones</span>
         </div>
